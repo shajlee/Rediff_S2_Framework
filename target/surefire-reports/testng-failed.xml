@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rediff S2 Hybrid Framework Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Rediff S2 Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.rediff.S2.testcases.S2_LoginPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginWithValidCredentialsUsingDataProviderExcelSheet" invocation-numbers="2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rediff.S2.testcases.S2_LoginPage_Test -->
+    </classes>
+  </test> <!-- Rediff S2 Tests(failed) -->
+</suite> <!-- Failed suite [Rediff S2 Hybrid Framework Suite] -->
